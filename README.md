@@ -17,13 +17,15 @@ Our **Fighters** are made of an initial position and a set of movement:
 
 ### Game execution
 
-The game can be executed using **Python 3.7+** from the code repository as follows:
+First of all clone the repositrory on your local machine.
+The game can be executed using **Python 3.7+** from the code directory as follows:
 
 ```
 python main.py [pathToTheGameFile] [-i --interactiveMode]
 ```
 
-  - The variable pathToTheGameFile should be a string leading to the file from which we can load the game. It defaults to **./test.txt** file that is provided with the code. A second file is provided for testing purpose.
+  - The variable pathToTheGameFile should be a string leading to the file from which we can load the game. It has to be provided: the game won't run otherwise. Two files are provided for testing: the suggested game structure on the pdf file - **./test.txt** - and another one - **./test10_10_5f.txt**
   - The optional -i --interactiveMode tag should be added if you want to follow the game turn after turn. You can disable the interactive mode during the game by entering q when prompted.
-  
+
+At the end of the game, a resume.txt file is generated
 No additional package is needed.
